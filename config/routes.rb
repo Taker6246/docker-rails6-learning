@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'top/index'
   resources :rooms
   resources :books
   get 'greetings/index'
